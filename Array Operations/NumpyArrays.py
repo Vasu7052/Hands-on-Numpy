@@ -46,6 +46,8 @@ print("Axis 1 sum : " , a10.sum(axis=1))
 print("Square Root : " , np.sqrt(a10))
 print("Standard Deviation : " , np.std(a10))
 
+a13 = np.array([[1,2],[3,4]])
+a14 = np.array([[5,6],[7,8]])
 
 
 
