@@ -20,5 +20,5 @@ a2 = np.arange(1000)
 lResult = [(x+y) for x,y in zip(l1,l2)] # For list
 print(lResult)
 print("----------------------------")
-aResult = a1+a2 # For numpy
+aResult = a1+a2 # For numpy , Same for multiply , subtract or divide
 print(aResult)
