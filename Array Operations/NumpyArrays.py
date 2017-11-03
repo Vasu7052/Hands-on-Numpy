@@ -48,7 +48,12 @@ print("Standard Deviation : " , np.std(a10))
 
 a13 = np.array([[1,2],[3,4]])
 a14 = np.array([[5,6],[7,8]])
+print("Sum of two : " , a13+a14)
+print("Sub of two : " , a13-a14)
+print("Multiplication of two : " , a13*a14)
+print("Divide of two : " , a13/a14)
 
+print("Matrix product : " , a13.dot(a14))
 
 
 
