@@ -32,6 +32,19 @@ print("-----------\nReshaped 2 : \n" ,a12)
 # Flaten array
 print("-----------\nFlaten : \n" , a12.ravel())
 
+# Mathematical Functions -------------------------------
+
+print("Max" , a12.max())
+print("Min" , a12.min())
+print("Sum" , a12.sum())
+
+# Axis 0 represent column point of view
+# Axis 1 represent row point of view
+
+
+
+
+
 
 
 
