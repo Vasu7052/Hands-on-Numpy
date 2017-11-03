@@ -40,8 +40,8 @@ print("Sum" , a12.sum())
 
 # Axis 0 represent column point of view
 # Axis 1 represent row point of view
-
-
+print("Axis 0 sum : " , a10.sum(axis=0))
+print("Axis 1 sum : " , a10.sum(axis=1))
 
 
 
