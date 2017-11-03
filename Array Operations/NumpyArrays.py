@@ -22,7 +22,15 @@ a8 = np.arange(1,11 , 2) # Steps of 2
 a9 = np.linspace(1,5,10)  # It will generate 10 numbers between 1 and 5 which are linearly spaced
 print("-----------\nLinearly Spaced : \n" , a9)
 
+# Reshaping Array
+a10 = np.array([[1,2],[3,4],[5,6]])
+a11 = a10.reshape(2,3)
+print("-----------\nReshaped 1 : \n" ,a11)
+a12 = a10.reshape(6,1)
+print("-----------\nReshaped 2 : \n" ,a12)
 
+# Flaten array
+print("-----------\nFlaten : \n" , a12.ravel())
 
 
 
