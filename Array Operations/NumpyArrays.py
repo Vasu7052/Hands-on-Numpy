@@ -12,6 +12,24 @@ a4 = np.array([[1,2,3],[4,5,6],[7,8,9]] , dtype=np.complex)
 print("------------------------\nComplex Array : \n"+str(a4))
 
 
+a5 = np.zeros((3,4)) # Giving shape in parameter
+a6 = np.ones((6,4)) # Giving shape in parameter
+
+a7 = np.arange(1,11) # 1 to 10
+
+a8 = np.arange(1,11 , 2) # Steps of 2
+
+a9 = np.linspace(1,5,10)  # It will generate 10 numbers between 1 and 5 which are linearly spaced
+print("-----------\nLinearly Spaced : \n" , a9)
+
+
+
+
+
+
+
+
+
 
 
 
