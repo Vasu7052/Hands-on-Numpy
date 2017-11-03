@@ -43,6 +43,17 @@ print("Sum" , a12.sum())
 print("Axis 0 sum : " , a10.sum(axis=0))
 print("Axis 1 sum : " , a10.sum(axis=1))
 
+print("Square Root : " , np.sqrt(a10))
+print("Standard Deviation : " , np.std(a10))
+
+
+
+
+
+
+
+
+
 
 
 
